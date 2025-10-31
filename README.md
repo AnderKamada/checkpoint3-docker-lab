@@ -26,3 +26,19 @@ docker compose up -d --build
 docker compose ps
 docker compose logs -f api   # Ctrl+C p/ sair
 docker compose logs -f db
+
+# 5) Prints
+#### Containers rodando no Docker Desktop
+![Docker Desktop](docs/prints/01-docker-desktop.png)
+
+#### Saída do `docker compose ps`
+![compose ps](docs/prints/02-compose-ps.png)
+
+#### Healthcheck da API
+![health](docs/prints/03-health.png)
+
+#### POST /users e GET /users
+![users](docs/prints/04-users.png)
+
+#### Prova do volume compartilhado (hello.txt)
+![shared volume](docs/prints/05-shared-volume.png)
